@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink } from 'vue-router';
-import AppHeader from '@/components/layout/AppHeader.vue';
-import { useRecords } from '@/composables/useRecords';
+import AppHeader from '../components/layout/AppHeader.vue';
+import { useRecords } from '../composables/useRecords';
 
 const { totalRecords, totalDuration } = useRecords();
 </script>

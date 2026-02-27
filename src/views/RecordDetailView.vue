@@ -1,9 +1,9 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useRouter, useRoute } from 'vue-router';
-import AppHeader from '@/components/layout/AppHeader.vue';
-import AppButton from '@/components/forms/AppButton.vue';
-import { useRecords } from '@/composables/useRecords';
+import AppHeader from '../components/layout/AppHeader.vue';
+import AppButton from '../components/forms/AppButton.vue';
+import { useRecords } from '../composables/useRecords';
 
 const router = useRouter();
 const route = useRoute();

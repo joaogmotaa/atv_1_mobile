@@ -1,8 +1,8 @@
 <script setup>
 import { RouterLink, useRouter } from 'vue-router';
-import AppHeader from '@/components/layout/AppHeader.vue';
-import RecordCard from '@/components/records/RecordCard.vue';
-import { useRecords } from '@/composables/useRecords';
+import AppHeader from '../components/layout/AppHeader.vue';
+import RecordCard from '../components/records/RecordCard.vue';
+import { useRecords } from '../composables/useRecords';
 
 const router = useRouter();
 const { records } = useRecords();
